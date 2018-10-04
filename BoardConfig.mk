@@ -195,7 +195,7 @@ DONT_DEXPREOPT_PREBUILTS := true
 
 # selinux
 include device/qcom/sepolicy/sepolicy.mk
-
+SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_SEPOLICY_DIRS += $(BOARD_PATH)/sepolicy
 
 DEVICE_MANIFEST_FILE := $(BOARD_PATH)/configs/manifest.xml
