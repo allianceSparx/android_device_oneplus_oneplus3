@@ -271,8 +271,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_parameters_shim
 
+# DevicHandler
 PRODUCT_PACKAGES += \
-    Oneplus3Parts
+    DeviceHandler
 
 # Doze mode
 PRODUCT_PACKAGES += \
